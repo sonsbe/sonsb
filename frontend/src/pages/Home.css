@@ -17,8 +17,10 @@
     margin-left: 0%;
 }
 .textfield-wrapper {
-    position: relative;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
   }
   
   .textfield-wrapper > a {

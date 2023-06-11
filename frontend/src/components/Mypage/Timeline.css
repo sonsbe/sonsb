@@ -1,0 +1,169 @@
+.my-div {
+    display: inline-block;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    margin-right: 0.5em;
+    font-weight: bold;
+    color: #000000;
+    background: #FFF;
+    border: solid 3px #000000;
+    border-radius: 10px;
+    width: auto;
+    height: 100%;
+  }
+
+  .Timeline-my-divin {
+    display: flex;
+    margin: 1px;
+    font-weight: bold;
+    color: #000000;
+    background: #FFF;
+    border: solid 3px #000000;
+    border-radius: 10px;
+    padding: 10px;
+    width: auto;
+    height: 35px;
+    align-items: center;
+    font-size:18px;
+    font-family: IBM Plex Sans KR-Light;
+    margin-right: 10px;
+  }
+
+.timeline-my-div2 {
+    display: flex;
+    padding-bottom : 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    color: #000000;
+    border-bottom: solid 1px #000000;
+    width: 100%;
+    height: 140px;
+    top: 0;
+    left: 0;
+  }
+
+.Timeline-button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 134px;
+    height: 100%;
+    background-color: #ffffff;
+  }
+
+.Timeline-button2a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 134px;
+    height: 70%;
+    border-left: 3px solid #e6e6e6;
+  }
+
+.Timeline-img{
+  display: flex;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 0px #000000;
+}
+
+.Timeline-aim-2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 50px;
+  
+}
+
+.timeline-table-title {
+  display:flex;
+  border-bottom: solid 1px #2c22bb;
+  width: 100%; 
+  height: 60px;
+  flex-wrap: wrap; /* 추가 */
+  justify-content: center; /* 추가 */
+  align-items: center;
+  font-family: IBM Plex Sans KR-Light;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.timeline-table-titlea{
+  height: 70px;
+}
+
+.Timeline-table-wrap{
+  display: block;
+  width: 1024px;
+}
+
+.Timeline-keyward{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.Timeline-keywarda{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 70%;
+  font-size: 30px;
+  border-right: 3px solid #e6e6e6;
+  
+}
+
+.Timeline-itemkeyward {
+  padding: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 690px;
+  height: 100%;
+  background-color: #ffffff;
+  border: solid 1px #FFF;
+}
+
+.Timeline-pagination{
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Timeline-pagination-number{
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.Timeline-pagination-click{
+  display: flex;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3px;
+  margin-right: 3px;
+  border: 0px;
+  background-color: #f9f9f9;
+}
+
+.Timeline-pagination-animation:hover{
+  transition: all 0.3s ease;
+  width: 40px;
+  height: 40px;
+}

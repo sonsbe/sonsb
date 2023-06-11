@@ -1,15 +1,9 @@
 import Box from '@mui/material/Box';
 
-const RelatedImage = () => {
+const RelatedImage = ({imgsrc}) => {
     return (
         <div>
-            <Box 
-            sx={{
-        width: 300,
-        height: 400,
-        border: 1,
-        borderRadius: '16px'
-      }} />
+            <img src={imgsrc} alt="img" width="100%" height="auto"/>
         </div>
     );
 };

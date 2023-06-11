@@ -1,0 +1,23 @@
+.image-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.youtube a, .blog a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.msgbox {
+    position: absolute;
+    float: right;
+    transform: translate(0, -50%);
+    padding: 10px;
+    background-color: #1E2021;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 1.4;
+    z-index: 9999;
+  }

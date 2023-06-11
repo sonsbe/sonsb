@@ -1,21 +1,35 @@
 
 .home {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0 auto;
+    margin-top: 120px;
     padding: 0;
+    
 }
-.ad {
-    margin-right: 0%;
+.back{
+  position: absolute;
+  width: 2560px;
+  height: 1920px;
+  z-index: -1;
 }
-.right {
+.center {
     display: grid;
     grid-template-rows: auto auto;
     gap: 0.5rem;
     margin-left: 0%;
 }
+.input-container{
+  display: flex;
+    justify-content: space-between;
+    width: 140%;  /* 적절한 크기로 조절합니다. */
+}
+.input {
+    width: 100%;
+  }
 .textfield-wrapper {
     display: flex;
     flex-direction: column;
@@ -28,3 +42,4 @@
     bottom: 0;
     right: 0;
   }
+

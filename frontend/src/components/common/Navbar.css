@@ -1,0 +1,9 @@
+.abc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b5dcff;
+    z-index: 100;
+    justify-content: flex-end;
+    opacity: 0.1;
+}

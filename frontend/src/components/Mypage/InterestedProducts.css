@@ -1,0 +1,411 @@
+.my-div {
+    /*position: absolute;
+    display: none;*/
+    margin : 0em;
+    margin-right: 0em ;
+    font-weight: bold;
+    color: #000000;
+    background: #FFF;
+    border: solid 3px #000000;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    flex: 1 0 33.33%;
+  }
+
+  .my-divz {
+    display: inline;
+    font-weight: bold;
+    color: #000000;
+    background: #FFF;
+    border: solid 3px #000000;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    /*flex: 1 0 33.33%;*/
+  }
+
+  .tablesize{
+    display: flex;
+  }
+
+  .InterestedProducts-table-detail {             /* 아이템 눌렀을때 보이는 상세창 */
+    position: absolute;
+    top : 100px;
+    left : 70px;
+    border: 3px solid #295fb7;
+    background-color: #ffffff; 
+    width: 500px; 
+    height: 700px;
+    margin: 1em 0;
+    margin-left:35%;
+    z-index: 12;
+    font-family: IBM Plex Sans KR-Light;
+  }
+
+.InterestedProducts-table-detail2 {              /* 부품별 창 */
+    position: relative;
+    display: flex; /* display 속성을 flex로 설정 */
+    align-items: center; /* 수직 가운데 정렬 */
+    border: 3px solid #b5dcff; 
+    width: 494px; 
+    height: 130px;
+  }
+
+.interested-table-detail-img {     /*상세보기 이미지*/
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #b5dcff; 
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.interested-table-set
+{
+  display: flex;
+  border: 3px solid #b5dcff;
+  width: 350px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.interested-table-detail-name {    /*상세보기 이름*/
+  display: flex; 
+  width: 250px;
+  height: 100%;
+  justify-content: center; 
+  align-items: center;
+  padding: 0.5em;
+}
+
+.interested-table-detail-price {   /*상세보기 가격*/
+  display: flex;
+  width: 50px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+}
+
+.interested-table-detail-rink {     /*상세보기 이미지*/
+  display: flex;
+  width: 100px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.interested-table-div0 {
+  position: relative;
+  display: flex; /* display 속성을 flex로 설정 */
+  justify-content: center; /* 수평 가운데 정렬 */
+  align-items: center; /* 수직 가운데 정렬 */
+  background-color: #e6e6e6; 
+  border: 2px solid #000000;
+  width: 700px; 
+  height: 330px;
+}
+
+
+
+.interested-table-div1 {
+    position: relative;
+    display: flex; /* display 속성을 flex로 설정 */
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    border: 1px solid #ffebb5; 
+    background-color: #ffebb5; 
+    border-radius: 16px;
+    box-shadow: inset 0 0 8px #deb13a;
+    background-color: #a882e9;
+    width: 310px; 
+    height: 140px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+  }
+
+  .interested-abc0 { 
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    width: 685px;
+    height: 305px;
+    top: -3px;
+    left: -1px;
+    background-color: #ffffff;
+  }
+
+  .interested-abc { 
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2px;
+    width: 305px;
+    height: 137px;
+    top: 0;
+    left: 0;
+  }
+
+  .interested-table-button-wrapper {
+    position: relative;
+  }
+
+  .interested-table-button-wrapper0 {
+    position: relative;
+  }
+
+.interested-table-button0 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 690px;
+    height: 305px;
+  } 
+
+.interested-table-button {
+    display: flex;
+    flex-wrap: wrap;
+    width: 310px;
+    height: 140px;
+  } 
+
+.interested-imga0 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 225px;
+    margin: 2px;
+    height: 150px;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    padding: 1px;
+    border: 1px solid #000000;
+  }
+
+.interested-imgaa {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 33.333333333%;
+  height: 50%;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+}
+
+.interested-imgmain1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 33.3%;
+  height: 50%;
+  position: relative;
+  z-index: 0;
+  border: 1px solid #ffebb5; 
+}
+
+.table-main { 
+    position: absolute;
+    top :300px;
+    left : 0px;
+    border: 1px solid #ffebb5; 
+    background-color: #ffebb5; 
+    border-radius: 16px;
+    box-shadow: inset 0 0 8px #deb13a;
+    width: 500px; height: 500px;
+    margin: 1em 0;
+    margin-left:35%
+  }
+
+
+
+.my-tablebig {
+    display: flex;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    margin-right: 0.5em;
+    font-weight: bold;
+    color: #000000;
+    background: #FFF;
+    border: solid 3px #000000;
+    border-radius: 10px;
+    width: 952px;
+    height: 100%;
+    position: absolute;
+  }
+
+.rigthfull {
+    position: absolute;
+    display: none;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    font-weight: bold;
+    color: #000000;
+    background: #FFF;
+    border: solid 3px #000000;
+    border-radius: 10px;
+    width: 260px;
+    height: 160px;
+    flex-wrap: wrap; /* 추가 */
+    justify-content: center; /* 추가 */
+    align-items: center;
+}
+
+.titlea {
+  display:flex;
+}
+
+.adf {
+    display:flex;
+    border-radius: 16px;
+    width: 200px; 
+    height: 160px;
+    margin: 1em 0;
+    margin-left:35%;
+    flex-wrap: wrap; /* 추가 */
+    justify-content: center; /* 추가 */
+    align-items: center;
+}
+
+.interested-set-buttons{   /*클릭하는 버튼용*/
+  display: flex;
+  flex-wrap: wrap; /* flex-wrap 속성을 wrap으로 설정 */
+  justify-content: space-between;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.longstring {       /*길면 자를까 했는데 일단 냅둠*/
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: break-word;
+  width: 300px;
+  height: 20px;
+}
+
+.interested-Xbutton {    /* 닫기 버튼용 */
+  display: flex;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  border: #ffffff;
+}
+
+.interested-table-title {
+  display:flex;
+  border-bottom: solid 1px #223cbb;
+  width: 100%; 
+  height: 60px;
+  flex-wrap: wrap; /* 추가 */
+  justify-content: center; /* 추가 */
+  align-items: center;
+  font-family: IBM Plex Sans KR-Light;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.interested-table-titlea{
+  height: 70px;
+}
+
+.bottom-margin {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.interested-wraptable{
+  padding-bottom: 0px;
+}
+
+.interested-main{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  z-index: 7;
+  position: relative;
+}
+
+.interested-mainbackone{
+  display: flex;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  z-index: 10;
+  margin-left: 176px;
+  border-bottom-left-radius: 70px;
+}
+
+.interested-mainbacktwo{
+  display: flex;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  z-index: 8;
+  margin-left: 170px;
+  border-radius: 100px;
+  margin-top: 5px;
+}
+
+
+.interested-mainbackb{
+  display: flex;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: 8;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.interested-mainbacka{
+  display: flex;
+  width: 225.5px;
+  height: 150px;
+  z-index: 0;
+  position: relative;
+  border: 1px solid #000000;
+  margin: 1px;
+}
+
+.interested-mainback1{
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  display: none;
+  background-color: #a12929;
+}
+
+.mainback2{
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  z-index: 8;
+  display: none;
+  background-color: #a12929;
+}
+
+.interested-main:hover .interested-mainback1 {
+  display: block;
+}
+
+.InterestedProducts-table-head{
+  display: flex;
+  height: 40px;
+}
+
+.InterestedProducts-headcss{
+  display: flex;
+  width: 464px;
+  justify-content: center;
+  align-items: center;
+}

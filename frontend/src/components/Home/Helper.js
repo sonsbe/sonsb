@@ -65,12 +65,15 @@ const Helper = ({tags}) => {
         <div>
             <Box 
             sx={{
-        width: 500,
+        width: '480px',
         height: 200,
-        border: 1,
-        borderRadius: '16px'
+        borderRadius: '16px',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        background: 'linear-gradient(to bottom, #F2F2F2 0%, white 50%, #F2F2F2 100%)'
       }}>
-                <h1>{helpMessage}</h1>
+                <h1 >{helpMessage}</h1>
             </Box>
         </div>
     )

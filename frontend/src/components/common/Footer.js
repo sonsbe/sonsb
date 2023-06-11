@@ -1,7 +1,12 @@
+import React from 'react';
+import './Footer.css'; 
 const Footer = () => {
     return (
-        <div>
-            <h1>T.P.O. 010-xxxx-xxxx 대전광역시 대덕구 오정동</h1>
+        <div className="footer">
+            <td className="footer-in">
+                <p className="footer-item">T.P.O.</p>
+                <p className="footer-item">dntkddus123@gmail.com</p>
+            </td>
         </div>
     )
 }

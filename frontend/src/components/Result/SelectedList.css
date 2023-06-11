@@ -1,0 +1,77 @@
+.SelectList-box{
+    display: flex;
+    width: 500px;
+    height: 100%;
+    flex-direction: column;
+    align-items: center; /* 수직 가운데 정렬 */
+  }
+
+.SelectList-hibbb{
+    margin-top: 10px;
+    display: flex;
+    border-top: 3px solid #402020;
+    height: 70px;
+    width: 500px;
+}
+
+.SelectList-hiaaa{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.SelectList-bbb{
+    display: flex;
+    border: 0px solid #402020;
+    border-bottom: 1px solid #dcdcdc; 
+    margin: 5px;
+}
+
+.SelectList-bbbname {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.SelectList-bbbprice {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.SelectList-aaa {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    align-items: center; /* 수직 가운데 정렬 */
+    border: 0px solid #000000;
+    background-color: white; 
+    border-radius: 16px;
+    box-shadow: inset 0 0 0px #545699;
+    width: 450px; 
+    height: 300px;
+    margin: 10px;
+  }
+
+  .input-name{
+    display: flex;
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+.SelectList-ccc{
+    position: relative;
+    display: flex;
+    font-size: 25px;
+}
+.SelectList-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

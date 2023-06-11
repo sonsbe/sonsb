@@ -1,4 +1,3 @@
-import Ad from "../components/common/Ad";
 import RelatedImage from "../components/Result/RelatedImage";
 import RelatedLink from "../components/Result/RelatedLink";
 import SelectedList from "../components/Result/SelectedList";
@@ -13,25 +12,25 @@ const Result = () => {
     const location = useLocation();
     const users = location.state.users;
     return (
-        
-        <div className="page-content">
-            {/*
-        <div className="left-section">
-            <Ad />
-        </div>
-    */}
-        <div className="center-section">
-            <Styling users={users} setSelectedProducts={setSelectedProducts}/>
-        </div>
-        {/*
-        <div className="right-section">
-            <RelatedImage />
-            <RelatedLink />
-        </div>
-*/}
-        <div className="bottom-section">
-            <SelectedList selectedProducts={selectedProducts}/>
-        </div>
+    <div className="page-top">
+        <table className="page-content-left">
+        </table>
+        <table className="page-content">
+            <td className="center-section">
+            <td>
+                <img className="imga" src="/img/model.png" alt="모자1" width="80px" height="80px"></img>
+            </td>
+                <Styling users={users} setSelectedProducts={setSelectedProducts}/>
+            </td>
+            <td className="bottom-section">
+                <SelectedList selectedProducts={selectedProducts}/>
+            </td>
+        </table>
+        <table className="page-content-right">
+            <RelatedImage imgsrc={users[0].modelimage} />
+            <div style={{ marginTop: "30px", height: '1px', width: "250px", backgroundColor: 'black', opacity: 0.5 }} /> 
+            <RelatedLink user={users[0]}/>
+        </table>
     </div>
     )
 }
